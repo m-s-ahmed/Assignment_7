@@ -1,4 +1,8 @@
 import React from "react";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaHeadphonesAlt } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
+import { TiSocialTwitter } from "react-icons/ti";
 
 const Footer = () => {
   return (
@@ -59,13 +63,28 @@ const Footer = () => {
           <p className="text-xl font-semibold mb-4">Information</p>
           <ul className="text-[#A1A1AA]">
             <li>
-              <a href="#">Privacy Policy</a>
+              <div className="flex items-center gap-2">
+                <FaFacebookSquare />
+                <a href="#">@CS-Ticket System</a>
+              </div>
             </li>
             <li>
-              <a href="#">Terms & Conditions</a>
+              <div className="flex items-center gap-2">
+                <AiFillLinkedin />
+                <a href="#">@CS-Ticket System</a>
+              </div>
             </li>
             <li>
-              <a href="#">Join Us</a>
+              <div className="flex items-center gap-2">
+                <TiSocialTwitter />
+                <a href="#">@CS-Ticket System</a>
+              </div>
+            </li>
+            <li>
+              <div className="flex items-center gap-2">
+                <FaHeadphonesAlt />
+                <a href="#">support@cst.com</a>
+              </div>
             </li>
           </ul>
         </div>
